@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import Category from '../views/Category.vue'
 import Cart from '../views/Cart.vue'
 import Profile from '../views/Profile.vue'
+import Ajax from '../views/Ajax.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -12,20 +13,24 @@ const routes = [
     name: 'home',
     component: Home
   }, {
-    path: '/Category',
-    name: 'Category',
+    path: '/category',
+    name: 'category',
     component: Category
   },
   {
-    path: '/Cart',
-    name: 'Cart',
+    path: '/cart',
+    name: 'cart',
     component: Cart
   },
   {
-    path: '/Profile',
-    name: 'Profile',
+    path: '/profile',
+    name: 'profile',
     component: Profile
-  },
+  },{
+    path: '/ajax',
+    name: 'ajax',
+    component: Ajax
+  }
 ]
 
 const router = new VueRouter({

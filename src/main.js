@@ -6,6 +6,15 @@ import store from './store'
 Vue.config.productionTip = false
 import "@/assets/css/reset.css"
 import "@/assets/js/rem.js"
+// vant完全引用
+// import Vant from 'vant';
+// import 'vant/lib/index.css';
+
+// Vue.use(Vant);
+import { Button ,Icon , NavBar , Tabbar , TabbarItem , Swipe, SwipeItem ,Lazyload} from 'vant';
+Vue.use(Button).use(Icon).use(NavBar).use(Tabbar).use(TabbarItem).use(Swipe).use(SwipeItem).use(Lazyload);
+import "@/mock/mock.js";
+
 new Vue({
   router,
   store,
