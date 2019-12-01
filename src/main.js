@@ -11,8 +11,9 @@ import "@/assets/js/rem.js"
 // import 'vant/lib/index.css';
 
 // Vue.use(Vant);
-import { Button ,Icon , NavBar , Tabbar , TabbarItem , Swipe, SwipeItem ,Lazyload} from 'vant';
-Vue.use(Button).use(Icon).use(NavBar).use(Tabbar).use(TabbarItem).use(Swipe).use(SwipeItem).use(Lazyload);
+
+import {Toast, Button ,Icon , NavBar , Tabbar , TabbarItem , Swipe, SwipeItem ,Lazyload,  Tab, Tabs , CellGroup , Field} from 'vant';
+Vue.use(Button).use(Icon).use(NavBar).use(Tabbar).use(TabbarItem).use(Swipe).use(SwipeItem).use(Lazyload).use(Tab).use(Tabs).use(CellGroup).use(Field).use(Toast);
 import "@/mock/mock.js";
 
 new Vue({
