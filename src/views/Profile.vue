@@ -80,7 +80,7 @@ export default {
           }).then(()=>{
             this.$toast.success('登录成功');
             this.loginAction(res.data.userInfo);
-            this.$router.push("/")
+            this.$router.go(-1);
           })
         }
       }).catch((err)=>{
@@ -92,6 +92,6 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss"  scoped>
 
 </style>

@@ -12,8 +12,8 @@ import "@/assets/js/rem.js"
 
 // Vue.use(Vant);
 
-import {Toast, Button ,Icon , NavBar , Tabbar , TabbarItem , Swipe, SwipeItem ,Lazyload,  Tab, Tabs , CellGroup , Field} from 'vant';
-Vue.use(Button).use(Icon).use(NavBar).use(Tabbar).use(TabbarItem).use(Swipe).use(SwipeItem).use(Lazyload).use(Tab).use(Tabs).use(CellGroup).use(Field).use(Toast);
+import {SubmitBar, Card,GoodsAction,GoodsActionIcon,GoodsActionButton, PullRefresh ,List, Row ,  Col , Toast , Button ,Icon , NavBar , Tabbar , TabbarItem , Swipe, SwipeItem ,Lazyload,  Tab, Tabs , CellGroup , Field} from 'vant';
+Vue.use(SubmitBar).use(Card).use(GoodsAction).use(GoodsActionIcon).use(GoodsActionButton).use(PullRefresh).use(List).use(Row).use(Col).use(Button).use(Icon).use(NavBar).use(Tabbar).use(TabbarItem).use(Swipe).use(SwipeItem).use(Lazyload).use(Tab).use(Tabs).use(CellGroup).use(Field).use(Toast);
 import "@/mock/mock.js";
 
 new Vue({

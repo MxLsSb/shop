@@ -3,7 +3,7 @@
     <!-- 标题 -->
     <van-nav-bar title="首页" class="nav-title">
       <van-Icon name="search" slot="left"></van-Icon>
-      <van-Icon slot="right" @click="$router.push('/profile')">{{userInfo.userName}}</van-Icon>
+      <van-Icon slot="right" @click="$router.push('/profile')">{{ JSON.stringify(userInfo) === '{}'?'未登录':userInfo.userName}}</van-Icon>
     </van-nav-bar>
     <!-- 轮播图 -->
     <div class="carousel">
@@ -113,7 +113,7 @@ export default {
   }
 };
 </script>
-<style lang="scss">
+<style lang="scss"  scoped>
   .container{
     background: #eee;
     padding:1rem 0; 
