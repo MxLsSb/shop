@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 // import Home from '../views/Home.vue'
 // import Category from '../views/Category.vue'
-// import Cart from '../views/Cart.vue'
+//import Cart from '../views/Cart.vue'
 // import Profile from '../views/Profile.vue'
 import Ajax from '../views/Ajax.vue'
 import Detail from '../views/Detail.vue'
@@ -46,9 +46,6 @@ const routes = [
     components:{
       default:Cart,
       'footer-bar':FooterBar
-    },
-    meta:{
-      keepAlive:true
     }
   },
   {
